@@ -1,0 +1,210 @@
+/*div {
+  border: 1px solid black;
+}*/
+
+html {
+  font-size: 18px;
+  color: white;
+  font-family: helvetica;
+}
+
+h1 {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+
+h4 {
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.4em;
+  padding-bottom: 0.25rem;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+a:hover {
+  background-color: red;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* HEADER */
+
+.header-container {
+  position: fixed;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+}
+
+.header-container .header {
+  display: flex;
+  align-items: center;
+  max-width: 960px;
+  width: 100%;
+}
+
+.header-container img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+.header-container span {
+  margin: 0.66rem;
+}
+
+/* MAIN-BANNER */
+
+.main {
+  padding-top: 2.32rem;
+  flex-direction: column;
+}
+
+.main-banner {
+  display: flex;
+  justify-content: center;
+  background-image: url("file:///Users/marcwyss/Desktop/MarcDev/Projects/Secret_Agent_Supply/assets/images/moto.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left 50%;
+  height: 25rem;
+  width: 100%;
+  }
+
+.title-container {
+  display: flex;
+  max-width: 960px;
+  width: 100%;
+}
+
+.title-container .title {
+  position: relative;
+  top: 9rem;
+  padding: 2rem 3rem;
+  background-color: black;
+  width: 20rem;
+  height: 7rem;
+}
+
+/* NAVIGATION */
+
+nav {
+  display: flex;
+  justify-content: center;
+  background: firebrick;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  max-width: 960px;
+  width: 100%
+}
+
+/* ITEMS-ON-SALE */
+
+.items-container-container {
+  display: flex;
+  justify-content: center;
+  width: 100%
+}
+
+.items-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  height: 15rem;
+  max-width: 960px;
+  width: 100%;
+}
+
+.items-container .item {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.items-container .item .image {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+  border: 3px solid black;
+}
+
+.items-container .item .image img {
+  max-width: 8em;
+}
+
+.items-container .item span {
+  background-color: black;
+  text-align: center;
+  padding: 0.5rem 0;
+  width: 100%;
+}
+
+/* INFO */
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  width: 100%;
+}
+
+.info-container .info {
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  width: 100%
+}
+
+.info-container .info .specific-info {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.info-container .info .specific-info .title {
+  background-color: black;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.info-container .info .specific-info .info-content {
+  color: black;
+  padding-top: 0.5rem;
+}
+
+/* FOOTER */
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  height: 5rem;
+  width: 100%;
+  background-color: black;
+}
+
+.footer-container .footer {
+  max-width: 960px;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+}
