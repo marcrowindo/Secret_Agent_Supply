@@ -75,7 +75,7 @@ a {
 .main-banner {
   display: flex;
   justify-content: center;
-  background-image: url("file:///Users/marcwyss/Desktop/MarcDev/Projects/Secret_Agent_Supply/assets/images/moto.png");
+  background-image: url("assets/images/moto.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left 50%;
